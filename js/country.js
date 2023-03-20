@@ -13,8 +13,8 @@ const displayData = (countries) => {
 
 const getSingleCountry = (country) => {
     return `
-            <div>
-            <h1>${country.name.common}</h1>
+            <div id="country">
+            <h2>${country.name.common}</h2>
             <img src="${country.flags.png}" alt="">
             </div>
             `
